@@ -2,8 +2,8 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: #f3f4f6;
-    color: #333;
+    background: black; /* Updated to black */
+    color: white; /* Updated to white for better readability */
 }
 
 header {
@@ -84,6 +84,7 @@ nav ul li a:hover {
     text-align: center;
 }
 
+/* Updated background color for readability */
 .workout-container {
     display: flex;
     justify-content: center;
@@ -91,10 +92,11 @@ nav ul li a:hover {
 }
 
 .workout-card {
-    background: white;
+    background: #222; /* Darker background for contrast */
+    color: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
 }
 
 .testimonial-container {
@@ -118,10 +120,12 @@ nav ul li a:hover {
 }
 
 .contact input, .contact textarea {
+    background: #222; /* Dark input background */
+    color: white;
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #ddd;
+    border: 1px solid #444;
 }
 
 .contact button {
@@ -130,4 +134,8 @@ nav ul li a:hover {
     padding: 10px;
     border: none;
     cursor: pointer;
+}
+
+.contact button:hover {
+    background: #ff416c;
 }
